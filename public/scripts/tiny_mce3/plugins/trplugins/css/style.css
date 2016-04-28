@@ -1,0 +1,13 @@
+a:link, a:hover, a:visited{color:#a65728;background:none;text-decoration:none;}
+a.folder{background:url(folder.png) no-repeat; display:block; padding-left:30px; height:25px; font-weight:600; clear:both; float:left}
+div.fileimg{float:left; padding:5px;}
+div.fileimg div.bok{ width:130px; height:130px; border:1px solid #afafaf; padding:5px; background:#FFFFFF}
+div.fileimg div.bok div.fimgname{ background:#E4E3E0; height:18px}
+div.fileimg img{ cursor:pointer}
+div.listimgfileup{float:left; width:60%}
+div.listdivimgup{ padding-top:5px; border-bottom:1px solid #dfdfdf; padding-bottom:2px; height:18px; clear:both}
+.butdelup{float:right}
+.disachangevl{ border:0px; background:none; width:100%}
+.enabchangevl{border:1px solid #999999; background:#FFFFFF; width:100%}
+.statusup{color:#FF0000}
+div.listfileupdiv{padding-left:10px; overflow:auto; width:320px; height:120px; background:#f9f9f9}

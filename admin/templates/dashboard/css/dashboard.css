@@ -1,0 +1,72 @@
+@charset "utf-8";
+.thongke_big{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.14), 0 0 0 1px rgba(0, 0, 0, 0.07);
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.block_left{
+	width:49%;
+	float:left;
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.14), 0 0 0 1px rgba(0, 0, 0, 0.07);
+}
+.block_right{
+	float:left;
+	margin-left:2%;
+	width:49%;
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.14), 0 0 0 1px rgba(0, 0, 0, 0.07);
+}
+.clb{
+	clear:both;
+}
+.title_ghichu{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5d6167), color-stop(100%,#393939)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #5d6167 0%,#393939 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #5d6167 0%,#393939 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #5d6167 0%,#393939 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #5d6167 0%,#393939 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d6167', endColorstr='#393939',GradientType=0 ); /* IE6-9 */
+		
+	background: -moz-linear-gradient(center top , #5D6167 0%, #393939 100%) repeat scroll 0 0 transparent;
+    background: linear-gradient(center top , #5D6167 0%, #393939 100%) repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    text-shadow: 0 1px 1px #000000;
+	font-size: 13px;
+    font-weight: bold;
+    line-height: 38px;
+	padding-left:20px;
+	border-radius: 4px 4px 0px 0px;
+	text-transform: uppercase;
+}
+.title_thongke{
+	color: #349AFF;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 38px;
+    text-transform: uppercase;
+	border-bottom: 1px solid #EEEEEE;
+	padding-left:20px;
+}
+.main_thongtin{
+	background: url(../images/notes-bg.png) repeat scroll 0 0 #FFFDF2;
+    border: medium none;
+    color: #545145;
+    line-height: 20px;
+    padding: 20px 20px 20px;
+	border-radius: 0px 0px 4px 4px;
+}
+.main_thongke{
+	padding:10px 20px 10px 20px;
+}
+.label_info{
+	float:left;
+	width:30%;
+}
+.canhtop{
+	margin-top:10px;
+}

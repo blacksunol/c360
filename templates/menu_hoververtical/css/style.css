@@ -1,0 +1,53 @@
+.sidebarmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+font: bold 13px Verdana;
+width:209px;
+
+}
+ 
+.sidebarmenu ul li{
+position: relative;
+}
+
+/* Top level menu links style */
+.sidebarmenu ul li a{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color: white;
+text-decoration: none;
+padding:6px 6px 6px 11px;
+border-bottom: 1px solid #296c03;
+border-right: 1px solid #296c03;
+background:#42a200 url(../../images/arrow_menu.png) no-repeat scroll 2px 9px !important;
+font-family:Arial, Helvetica, sans-serif;
+}
+.sidebarmenu ul li:last-child >a{
+    border-bottom: medium none;
+}
+.sidebarmenu ul li a:visited{
+color: white;
+}
+
+.sidebarmenu ul li a:hover{
+	color:#F00;
+}
+
+/*Sub level menu items */
+.sidebarmenu ul li ul{
+position: absolute;
+width: 220px; /*Sub Menu Items width */
+top: 0;
+display:none;
+z-index:99999;
+}
+
+.sidebarmenu a.subfolderstyle{
+background: url(../../menu_hoververtical/images/right.gif) no-repeat 0px 0px ;
+}
+
+ 
+/* Holly Hack for IE \*/
+* html .sidebarmenu ul li { float: left; height: 1%; }
+* html .sidebarmenu ul li a { height: 1%; }

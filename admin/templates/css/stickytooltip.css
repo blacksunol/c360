@@ -1,0 +1,28 @@
+.stickytooltip{
+	display:none;
+	position:absolute;
+	display:none;
+	border:1px solid #CCC;
+	background:white;
+	z-index:3000;
+}
+.stickytooltip .stickystatus{
+	color:white;
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-top:5px;
+	text-align:center;
+	font-size: 11px;
+	font-weight: bold;
+}
+.atip img{
+	margin-right:5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-top: 5px;
+}
+.tool_tip{
+    padding-top:5px;
+    float: left;
+    padding-right: 5px;
+}

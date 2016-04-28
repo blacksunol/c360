@@ -1,0 +1,128 @@
+.content_category .p-list li {
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    position: relative;
+    width: 135px;
+}
+.content_category .p-list .item {
+    display: block;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.content_category .p-list .item .thumb {
+    display: block;
+    height: 120px;
+}
+.item .thumb img {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    width: auto;
+}
+.content_category .p-list .item .name {
+    color: #666;
+    display: block;
+    font-size: 10pt;
+    height: 55px;
+    overflow: hidden;
+}
+.content_category .p-list .item .price {
+    color: red;
+    font-family: "Roboto Bold";
+    font-size: 11pt;
+}
+.content_category .item .stamp {
+    display: block;
+    height: 18px;
+    position: absolute;
+    width: 34px;
+}
+.content_category .item .stamp-new {
+    background: url("../img/stamp-new.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    left: 0;
+    top: 0;
+}
+.content_category .item .stamp-gift {
+    background: url("../img/stamp-gift.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    right: 0;
+    top: 90px;
+}
+.content_category .item .stamp-cmsoon {
+    background: url("../img/stamp-soon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 16px;
+    left: 0;
+    top: 0;
+    width: 68px;
+}
+.content_category .item .stamp-sale {
+    background: none repeat scroll 0 0 rgba(255, 0, 0, 0.7);
+    color: #fff;
+    font-size: 9pt;
+    height: 20px;
+    right: 0;
+    text-align: center;
+    top: 100px;
+    width: 100%;
+}
+.content_category .v-list li:first-child {
+    height: 350px;
+    width: 420px;
+}
+.content_category .v-list li:not(:first-child) {
+    height: 170px;
+    margin-left: 10px;
+    width: 170px;
+}
+.content_category .v-list li {
+    background: none repeat scroll 0 0 #444;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.content_category .v-list .item {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.content_category .v-list .item img {
+    height: 100%;
+    margin-left: 50%;
+    transform: translate(-50%, 0px);
+    width: auto;
+}
+.content_category .v-list .item .stamp-video {
+    background: url("../img/stamp-video.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+    height: 30%;
+    left: 50%;
+    position: absolute;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    z-index: 10;
+}
+.content_category .v-list .item .name {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 10pt;
+    left: 0;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+}
+.content_category .v-list li:first-child .name {
+    background: none repeat scroll 0 0 #000;
+    font-family: "Roboto Bold";
+    font-size: 14pt;
+    text-transform: uppercase;
+}

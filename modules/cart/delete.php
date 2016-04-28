@@ -1,0 +1,9 @@
+<?php
+if($_GET['type']=='all'){
+    unset($_SESSION["cart"]);
+}else{
+    unset($_SESSION["cart"][$_GET['id']]);
+}
+header("location:index.php?module=cart&act=viewcart");
+exit();
+?>

@@ -1,0 +1,137 @@
+@charset "utf-8";
+tr.even_order td {
+    background: none repeat scroll 0 0 #E5ECF9;
+}
+#header-order .mains {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC #CCCCCC -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    margin-top: 10px;
+}
+.wrapper_order{
+    width:1000px;
+    margin: auto;
+    padding: 0px;
+}
+a:link {
+
+    text-decoration: none;
+}
+a {
+    color: #0088CC;
+    text-decoration: none;
+}
+.print{
+    margin-top: 40px;
+    
+}
+.clear_order{
+    clear: left;
+}
+#header-order {
+    margin-bottom: 20px;
+}
+#header-order .title {
+    border-bottom: 2px solid #FDB817;
+    color: #2084C4;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 0;
+    padding-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.code {
+    color: #333333;
+    display: block;
+    font: 12px Arial;
+    margin-top: 5px;
+    text-transform: none;
+}
+.boxModule {
+    margin-bottom: 10px;
+}
+.text-right {
+    text-align: right !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.text-left {
+    text-align: left !important;
+}
+.text-top {
+    vertical-align: text-top !important;
+}
+.bor td {
+    border-bottom: 1px solid #DCDCDC;
+    border-left: 1px solid #DCDCDC;
+    padding: 5px;
+    text-align: center;
+}
+table.bor {
+    border-right: 1px solid #DCDCDC;
+    border-top: 1px solid #DCDCDC;
+}
+table, table.bor td input, .bor td p {
+    margin: 0;
+}
+.red-bold {
+    color: #CC0000;
+}
+a.orange-btn span, a.gray-btn span, a.gray-btn:hover span {
+    display: inline-block;
+    height: 17px;
+    padding: 2px 7px 3px 0;
+}
+.sum td {
+    font-size: 14px;
+}
+.green {
+    background: none repeat scroll 0 0 #EFF7FE;
+}
+.yellow {
+    background: none repeat scroll 0 0 #F9F9E6;
+}
+.text01 td {
+    padding: 10px 4px;
+}
+.text01 td.bor01:hover, td.active {
+    background: none repeat scroll 0 0 #FFFBE2;
+}
+.bor01 {
+    border-left: 1px dotted #CACACA !important;
+}
+.box-cont {
+    padding: 10px;
+}
+.box01 {
+    background: none repeat scroll 0 0 #F5FAFE;
+    margin-bottom: 10px;
+}
+.title01 {
+    border-bottom: 1px solid #FDB916;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 10px 10px 5px;
+}
+.icon-mobile {
+    background: url(../images/icon-invoice.png) no-repeat scroll 0 -94px transparent;
+}
+.icon-mobile {
+    padding-left: 65px;
+}
+.chuky{
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+.chuky .chuky1{
+    float: left;
+    width:250px;
+    text-align: center;
+}

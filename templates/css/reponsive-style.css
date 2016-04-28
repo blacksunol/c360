@@ -1,0 +1,41 @@
+.logo_header{
+	display:none;
+}
+@media screen and (max-width: 999px){
+	.menu_ngang{
+		float:left;
+		left:0px;
+		z-index:9999;
+		top:-37px;
+	}
+	.content{
+		margin-top:40px;
+	}
+	.center_main{
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.num{
+		display:none;
+	}
+	.menu_buttom{
+		display:none;
+	}
+	.left_main{
+		display:none;
+	}
+	.right_main{
+		display:none;
+	}
+}
+@media screen and (max-width: 500px){
+	.banner_header{
+		display:none;
+	}
+	.logo_header{
+		display: block;
+		text-align:center;
+	}
+}
+
+

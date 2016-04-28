@@ -1,0 +1,36 @@
+input, select {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.btn_city {
+    margin-left: 10px;
+}
+.width_map {
+    margin-left: 15px;
+}
+.frm_address {
+    margin-top: 15px;
+}
+.txtmedium {
+    height: 15px;
+    width: 275px;
+}
+select, input[type="file"]{
+	height:27px;	
+}
+.btn{
+	line-height:18px;
+}
+#address{
+	margin-bottom:0px;
+}
+.google_map{
+	margin-top:15px;
+}
+.content_map{
+	margin-right:0px;
+	width:760px;
+}
+select{
+	width:auto;
+}

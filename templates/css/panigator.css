@@ -1,0 +1,36 @@
+@charset "utf-8";
+#paging {
+	margin-top:10px;
+	margin-bottom:10px;
+    text-align: right;
+	float:right;
+}
+#paging .link {
+    border: 1px solid #999999;
+    float: left;
+    margin-right: 3px;
+}
+#paging .link a {
+    background-color: #DDDDDD;
+    color: #333333;
+    display: block;
+    padding: 3px 6px;
+    text-decoration: none;
+}
+#paging .link a:hover {
+    background-color: #FFFF99;
+    color: #333333;
+    display: block;
+    padding: 3px 6px;
+    text-decoration: none;
+}
+#paging .active {
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin-right: 3px;
+    padding: 3px 6px;
+}
+#paging .page-text {
+    float: left;
+    padding: 5px 6px;
+}
