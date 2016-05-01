@@ -18,8 +18,8 @@
                     $arr_cid = implode("','", $arr_cid);
                     
                     $sql = "select * from danhmuc where duyet=1 and id in ('$arr_cid') order by sapxep asc";
-                    $result = fetchAll($sql);
-                ?>
+                    $result = fetchAll($sql);                
+				?>
                 <?php
                     if(count($result)>0){
                         $i=0;
@@ -49,8 +49,72 @@
             <div class="line_block"></div>
             <div class="detail_product">
                 <div class="detail_left">
-                    <img itemprop='image' src="<?php echo FILE_URL.'/news/'.$data['hinhanh']; ?>" style='border: 1px solid #e5e5e5; width:250px'/>  
+                	<?php
+						if(!empty($data['hinhanh'])){
+							$hinhanh = json_decode($data['hinhanh'],true);
+					?>
+                   <link href="<?php echo TEMPLATE_URL;?>/slidedetail/css/layout.2.0.0.css" media="screen" rel="stylesheet" type="text/css" />    	
+					<script src="<?php echo TEMPLATE_URL;?>/slidedetail/js/jquery.js"></script>
+                    <script type="text/javascript" src="<?php echo TEMPLATE_URL;?>/slidedetail/js/core.65.min.js"></script>
+                    <div id="base" class="info-box clearfix" >
+                        <div class="pic-info">
+                            <div id="img">
+                                <div class="pic-info-inside">
+                                    <div class="image-item img" itemprop="image" ></div>
+                                </div>					
+                                <div class="img-gallery">
+                                    <ul id="img-gallerySlider" class="image-nav clearfix" style="display:block">
+                                        <?php
+											foreach($hinhanh as $v){
+										?>
+                                        <li id="change_price_1" class ='image-nav-item' rel="1">
+                                            <span id="<?php echo FILE_URL.'/product/'.$v; ?>"><span class="arrow-img-gallery">arrow</span>	
+                                             <a class="fancybox" href="<?php echo FILE_URL.'/product/'.$v; ?>" rel="product_picture">	
+                                                <img id="image_1" src="<?php echo FILE_URL.'/product/'.$v; ?>"/>
+                                                </a>
+                                            </span>
+                                        </li>										
+                                    	<?php
+											}
+										?>                                        					
+                                    </ul>
+                                </div>
+                            </div>					
+                        </div>
+                        <script type="text/javascript">
+                            var runParams = {
+                                "imageDetailPageURL":"#",
+                                "imageURL":[
+								<?php
+									foreach($hinhanh as $v){
+								?>
+                                "<?php echo FILE_URL.'/product/'.$v; ?>",
+								<?php
+									}
+								?>
+                                ]
+                                };				
+                        </script>
+                    </div>            
+                    <script>
+                    var shopDetail = {	
+                         isSub : 0,
+                    };
+                    </script> 
+                          
+                    <script type="text/javascript" src="<?php echo TEMPLATE_URL;?>/slidedetail/js/jquery.fancybox.pack.js"></script>
+                    <link href="<?php echo TEMPLATE_URL;?>/slidedetail/css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+                     <script>
+                     $(document).ready(function() {
+                            $(".fancybox").fancybox();
+                        });
+                     </script>                           
+                    <script type="text/javascript" src="<?php echo TEMPLATE_URL;?>/slidedetail/js/product.detail.js"></script>
                     
+                    <script type="text/javascript" src="<?php echo TEMPLATE_URL;?>/slidedetail/js/mlib.2.js"></script>     
+                    <?php
+						}
+					?>
                 </div>
                 <div class="detail_right">
                     <h1 class="title_product"><?php echo $data['ten'];?></h1>          

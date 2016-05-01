@@ -19,14 +19,8 @@ if($_REQUEST['ajax']==1){
         case "shopping":
             require("modules/shopping/controller.php");
             break;
-        case "news":
-            require("modules/news/controller.php");
-            break;
         case "user":
             require("modules/user/controller.php");
-            break;
-        case "cart":
-            require("modules/cart/controller.php");
             break;
         default:
             require_once("templates/include/main.php");

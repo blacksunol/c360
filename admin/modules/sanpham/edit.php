@@ -13,28 +13,48 @@
         }
         $data['ten']=$_POST['ten'];
         $data['id_danhmuc']=$_POST['id_danhmuc'];
-        if($_FILES['img']['name'] != NULL){
-            $img=$_FILES['img']['name'];
-            preg_match('#\.[^.]+$#', $img,$match);
-            
-            $arrType = array('.jpg','.png','.gif','.jpeg');
-           
-            if(in_array($match[0],$arrType)){
-                $img = time().$match[0];
-                move_uploaded_file($_FILES['img']['tmp_name'],FILE_PATH."/news/".$img);
-                if($_GET['act']=='edit'){
-                    $file_curr =  $_POST['current_img'];
-                    @unlink(FILE_PATH.'/news/'.$file_curr);
-                }
-            }else{
-                $error['img']= "Chỉ được upload hình .jpg, .png";
-            }
-        }
+		$j_hinhanh = '';
+		if(count($_FILES['hinhanh'])>0){
+			foreach($_FILES['hinhanh']['name'] as $k=>$v){
+				$arrHinhanh[$k]['name'] = $v;
+				$arrHinhanh[$k]['type'] = $_FILES['hinhanh']['type'][$k];
+				$arrHinhanh[$k]['tmp_name'] = $_FILES['hinhanh']['tmp_name'][$k];
+				$arrHinhanh[$k]['error'] = $_FILES['hinhanh']['error'][$k];
+				$arrHinhanh[$k]['size'] = $_FILES['hinhanh']['size'][$k];
+			}
+			if($arrHinhanh[0]['name']!=NULL){
+				foreach($arrHinhanh as $key=>$hinhanh){
+					if($hinhanh['name']!=NULL){
+						$img=$hinhanh['name'];
+						preg_match('#\.[^.]+$#', $img,$match);
+						$arrType = array('.jpg','.png','.gif','.jpeg');
+						if(in_array($match[0],$arrType)){
+							$arrImg[] = $key.time().$match[0];
+						}else{
+							$error['img']= "Chỉ được upload hình .jpg, .png";
+						}
+					}
+				}
+				if(empty($error['img'])){
+					foreach($arrHinhanh as $key=>$hinhanh){
+						move_uploaded_file($hinhanh['tmp_name'],FILE_PATH."/product/".$key.time().$match[0]);
+					}
+				}
+				
+				if(!empty($data['hinhanh']) && empty($error['img'])){
+					$data_hinhanh = json_decode($data['hinhanh'],true);
+					$arrHinh = array_merge($arrImg,$data_hinhanh);
+				}else{
+					$arrHinh = $arrImg;
+				}
+				$j_hinhanh = json_encode($arrHinh);
+			}
+		}
         if($_POST['ten'] && empty($error['img']) && $_POST['id_danhmuc']){
-            if(!empty($img)){
+            if(!empty($j_hinhanh)){
                 $arrSet = array(
                     'ten'=>$_POST['ten'],
-                    'hinhanh' =>$img,
+                    'hinhanh' =>$j_hinhanh,
                     'duyet' =>$_POST['duyet'],
                     'ngaytao'=>time(),
                     'sapxep'=>$_POST['sapxep'],
@@ -70,10 +90,39 @@
     }
     
 ?>
-<script type="text/javascript">
-    function loadPage(area, url){
-        $(area).load(url);
-    }
+<script>
+   $(function() {
+        $('#addScnt').live('click', function() {
+            var html = '<div class="item_rule">';
+                    html +='<input type="file" id="p_scnt" name="hinhanh[]"/>';
+                    html +='<div id="remScnt" class="btn_remove">Remove</div>';
+                    html +='<div class="clr"></div>';
+                html +='</div>';
+            $(html).appendTo($('#p_scents'));
+            return false;
+        });
+		$('#remScnt').live('click', function() { 
+            $(this).parents('div.item_rule').remove();
+            return false;
+        });
+		$('.delete_img').click(function(){
+			var file=$(this).attr("rel");
+			var id = '<?php echo $_GET['id'];?>';
+			var url = '<?php echo APPLICATION_URL;?>/admin/modules/sanpham/removePic.php';
+			$.ajax({
+				url:url,
+				type:"POST",
+				data:{file:file,id:id},
+				async:false,
+				dataType:"json",
+				success:function(f){
+					if(f.error==0){
+						$('.load_img').html(f.html); 
+					}
+				}
+			});
+		});
+	});
 </script>
 <div id="content-box">
     <div class="border">
@@ -103,25 +152,57 @@
                                 <div class="erro_form"><?php echo $error['tieude'];?></div>
                             </div>
                             <div id="row">
+                            	<style>
+									.item_rule input{
+										float: left;
+										padding-right: 5px;
+										margin-top:5px;
+									}
+									.item_rule > .btn_remove{
+										float: left;
+										margin-top: 10px;
+										padding-left:5px;
+										cursor: pointer;
+										color: green;
+									}
+								</style>
                                 <div class="label">Hình ảnh:</div>
-                                <input type="file" name="img" size="50" >
-                                <input type="hidden" name='current_img' value="<?php echo $data['hinhanh'];?>"/>
-                                <div class="erro_form"><?php echo $error['img'];?></div>
-                            
-                            <?php
-                                if($_GET['act']=='edit'){
-                                    if(!empty($data['hinhanh'])){
-                                        $linkRemove = APPLICATION_URL.'/admin/modules/tintuc/removePic.php?id='.$_GET['id'].'&file='.$data['hinhanh'];
-                            ?>
-                                <div id="load-content">
-                                    <?php if(!empty($error['img'])){?><div class="labeld"></div><?php }?>
-                                    <img src="<?php echo FILE_URL.'/news/'.$data['hinhanh']; ?>" height="100"/>
-                                    <br><div class="labeld"></div><a href="javascript:loadPage('div#load-content','<?php echo $linkRemove;?>')">Xóa</a>
+                                <div style="margin-left:175px;">
+                                    <div id="addScnt" class="btn btn-success">Thêm hình</div>
+                                    <div id="p_scents">
+                                       <div class="item_rule">
+                                            <input type="file" id="p_scnt" name="hinhanh[]"/>
+                                            <div id="remScnt" class="btn_remove">Remove</div>
+                                            <div class="clr"></div>
+                                        </div>
+                                    </div>
+                                    <div class="erro_form"><?php echo $error['img'];?></div>
+                                    <div class="listhinhanh load_img">
+                                    	<?php
+											$hinhanh = json_decode($data['hinhanh'],true);
+											if(count($hinhanh)>0){
+												foreach($hinhanh as $k=>$v){
+										?>
+											<div style="float: left; margin-left: 10px; margin-top: 10px;" id="listItem_<?php echo $v['id'];?>">
+												<img src="<?php echo FILE_URL.'/product/'.$v;?>" height="100"/>
+												<div class="chucnang" align="center">
+												   
+												  
+														
+													<a href="javascript:;" rel="<?php echo $v;?>" class="delete_img" title="Xóa ảnh">
+															<img src="<?php echo ADMIN_TEMPLATE_URL?>/images/trash.png" width="16" height="16" border="0"/>
+														</a>
+												   
+												  
+												</div>
+											</div>		
+										<?php
+												}
+											}
+										?>
+                                        <div class="clr"></div>
+                                    </div>
                                 </div>
-                            <?php
-                                    }
-                                }
-                            ?>
                             </div>
                            <div id="row">
                                 <div class="label">Danh mục:</div>

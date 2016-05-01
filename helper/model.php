@@ -18,7 +18,7 @@ function insert($table,$arrFiled){
         $k[] = $key;
         $v[] = "'$val'";
     }
-    $feild=implode(",",$k);
+    $feild=implode(',',$k);
     $feild="(".$feild.")";
     
     $values=implode(",",$v);
@@ -61,7 +61,7 @@ function update($table,$arrSet){
     
     if(is_array($arrSet)){
         foreach($arrSet as $key =>$val){
-            $arr[] = $key.'="'.$val.'"';
+            $arr[] = $key."='".$val."'";
         }
         $set = implode(',',$arr);
     }

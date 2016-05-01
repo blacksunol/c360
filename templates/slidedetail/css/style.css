@@ -1,0 +1,75 @@
+.info-box{position:relative;z-index:2;margin-bottom:20px}
+.info-box .pic-info{float:left;width:302px}
+.info-box .pic-info .label-sale{position:absolute;top:0;right:0;z-index:1;display:block;width:56px;height:30px;padding:0 6px 0 0;font-size:18px;font-weight:bold;line-height:30px;color:#fff;text-align:right;background:url(../images/main_sprite_v2.1.0.15.png) -274px -496px no-repeat}
+.info-box .pic-info .pic-info-inside{display:table-cell;width:300px;height:300px;text-align:center;vertical-align:middle;background:url(../images/loading.gif) center center no-repeat;border:1px solid #d3d3d3;box-shadow:1px 1px 3px #eee}
+.ie7 .info-box .pic-info .pic-info-inside{background-position:top}
+.info-box .pic-info .img{float:left;width:300px;height:300px;margin-bottom:3px;text-align:center}.info-box .pic-info .want-buy{float:left;padding:3px 6px;padding-left:10px;margin:10px 0 0 55px;font-size:12px;font-weight:bold;background:#f1f3f7 url(../images/icon_list.1.0.5.png) 1px -376px no-repeat;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+.info-box .pic-info .btn-edit{display:block;width:110px;height:25px;margin:0 auto;text-indent:-9999px;background:url(../images/main_sprite_v2.1.0.15.png) -115px -138px no-repeat}
+.info-box .pic-info .btn-edit:hover{background-position:-115px -163px}
+.info-box .zoom-img{width:135px;padding:6px 0 3px 85px;margin-bottom:5px;font-size:11px;font-weight:bold;color:#039;background:url(../images/icon_list.1.0.5.png) 62px -1532px no-repeat}
+.info-box .zoom-img a{
+	font-weight:normal
+}
+.info-box .img-gallery{
+	width:300px;
+	height:68px;
+	padding:0 30px;
+	margin:2px 0 0 0;
+	overflow:hidden
+}
+.info-box .img-gallery ul{
+	margin-bottom:10px
+}
+.info-box .img-gallery ul li{
+	position:relative;
+	float:left;
+	width:60px;
+	padding:8px 0 0 0;
+	text-align:center
+}
+.info-box .img-gallery ul li img{
+	width:50px;
+	height:50px;
+	margin:0;
+	border:1px solid #ccc
+}
+.info-box .img-gallery ul li:hover img,
+.info-box .img-gallery ul li.current img{
+	margin:-2px 0 0 0;border:3px solid #ff7900
+}
+.info-box .img-gallery ul li .arrow-img-gallery{
+	display:none
+}
+.info-box .img-gallery ul li.current .arrow-img-gallery,
+.info-box .img-gallery ul li:hover .arrow-img-gallery{
+	position:absolute;
+	top:0;left:25px;
+	display:block;
+	width:10px;
+	height:6px;
+	text-indent:-9999px;
+	background:url(../images/icon_mini_v2.1.0.12.png) -373px -34px no-repeat
+}
+.info-box .img-gallery .bx-next,
+.info-box .img-gallery .bx-prev{
+	position:absolute;
+	top:19px;
+	width:16px;
+	height:32px;
+	text-indent:-9999px;
+	background:url(../images/main_sprite_v2.1.0.15.png) no-repeat
+}
+.info-box .img-gallery .bx-next{
+	right:-20px;
+	background-position:-132px -193px
+}
+.info-box .img-gallery .bx-prev{
+	left:-22px;
+	background-position:-115px -193px
+}
+.info-box .img-gallery .bx-next:hover{
+	background-position:-166px -193px
+}
+.info-box .img-gallery .bx-prev:hover{
+	background-position:-149px -193px
+}
