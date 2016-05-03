@@ -9,12 +9,19 @@
                 $result = fetchAll($sql);
                 if(count($result)>0){
                     foreach($result as $v){
-                        $link = 'index.php?module=shopping&act=detail&id='.$v['id'];
+                        $link = 'index.php?module=shopping&act=detail&cid='.$v['id_danhmuc'].'&id='.$v['id'];
             ?>
             <div class="row_pro">
                 <div class=" i-Thumb">
                     <a href="<?php echo $link;?>" class="imgCenterP">
-                        <img src="<?php echo FILE_URL.'/news/'.$v['hinhanh']; ?>" border="0"/>
+                        <?php
+							if(!empty($v['hinhanh'])){
+								$hinhanh = json_decode($v['hinhanh'],true);
+						?>
+						<img src="<?php echo FILE_URL.'/product/'.$hinhanh[0]; ?>" border="0"/>
+						<?php
+							}
+						?>
                     </a>
                 </div>
                 <h2 class="name_home_pro"><a href="<?php echo $link;?>"><?php echo $v['ten'];?></a></h2>

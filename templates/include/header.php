@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Phim ảnh</title>
+<title>Hoa xanh</title>
 <script>
 var baseUrl = '<?php echo APPLICATION_URL; ?>';
 var TEMPLATE_URL = '<?php echo TEMPLATE_URL;?>';
@@ -72,7 +72,7 @@ body{
         </script>
 <?php
     function createMenu($sourceArr,$parents =0, $viewObj ){
-        recursiveMenu($sourceArr,$parents = 0,&$newMenu,$viewObj);
+        recursiveMenu($sourceArr,$parents = 0,$newMenu,$viewObj);
         return str_replace('<ul></ul>','',$newMenu);
     }
     function recursiveMenu($sourceArr,$parents = 0,&$newMenu, $viewObj){
@@ -182,7 +182,7 @@ body{
 		$result = fetchAll($sql);
 		if(count($result)>0){
 	?>
-    <div class="custom-container mouseWheelButtons">
+    <div class="custom-container mouseWheelButtons" style="display:none">
         <a href="#" class="prev">&lsaquo;</a>
         <div class="carousel">
             <ul>
@@ -190,7 +190,15 @@ body{
 					foreach($result as $v){
 						$link = 'index.php?module=shopping&act=detail&cid='.$v['id_danhmuc'].'&id='.$v['id'];
 				?>
-                <li><a href="<?php echo $link;?>"><img src="<?php echo FILE_URL.'/news/'.$v['hinhanh']; ?>"></a></li>
+                <li><a href="<?php echo $link;?>">
+                        <?php
+                        if(!empty($v['hinhanh'])){
+									$hinhanh = json_decode($v['hinhanh'],true);
+							?>
+                            <img src="<?php echo FILE_URL.'/product/'.$hinhanh[0]; ?>" border="0"/>
+                            <?php
+								}
+							?></a></li>
                 <?php
 					}
 				?>

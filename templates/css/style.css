@@ -247,11 +247,11 @@ ul{
 }
 .detail_left{
 	float:left;
-	width:270px;
+	width:330px;
 }
 .detail_right{
 	float:left;
-	width:480px;
+	width:420px;
 }
 .content_product{
 	margin-top:10px;
@@ -594,9 +594,9 @@ h1.title_run{
     font-size: 9px !important;
     text-align: center;
     vertical-align: middle;
-    width: 210px;
+    width: 202px;
     height: 210px;
-    max-width: 210px;
+    max-width: 202px;
 }
 .img_main{
     max-width: 100%;
@@ -606,6 +606,14 @@ h1.title_run{
     color: red;
     font-weight: bold;
     text-align: center;
+}
+.addmore a{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.addmore a:hover{
+    color: #267AB7;
 }
 .mota p{
     line-height: 15px;

@@ -102,10 +102,11 @@
                                 <td align="center"><input type="checkbox" name="cid[]" value="<?php echo $data['id']; ?>" ></td>
                                 <td align="left"><?php echo $data['ten'];?></td>
                                 <td align="center">
-                                    <?php
-                                    if(!empty($data['hinhanh'])){
-                                    ?>
-                                    <img src="<?php echo FILE_URL.'/news/'.$data['hinhanh'];?>" width="50" height="30"/>
+                                <?php
+									if(!empty($data['hinhanh'])){
+										$hinhanh = json_decode($data['hinhanh'],true);
+                                ?>
+                                    <img src="<?php echo FILE_URL.'/product/'.$hinhanh[0];?>" width="50" height="30"/>
                                     <?php }?>
                                 </td>
                                 <td align="center">

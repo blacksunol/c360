@@ -1,0 +1,206 @@
+[01-May-2016 09:47:19 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect.php on line 3
+[01-May-2016 09:47:19 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect.php on line 4
+[01-May-2016 09:47:19 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect.php on line 5
+[01-May-2016 09:47:19 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect.php on line 5
+[01-May-2016 09:47:19 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 09:47:20 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect.php on line 3
+[01-May-2016 09:47:20 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect.php on line 4
+[01-May-2016 09:47:20 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect.php on line 5
+[01-May-2016 09:47:20 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect.php on line 5
+[01-May-2016 09:47:20 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 09:48:07 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect.php on line 3
+[01-May-2016 09:48:07 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect.php on line 4
+[01-May-2016 09:48:07 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect.php on line 5
+[01-May-2016 09:48:07 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect.php on line 5
+[01-May-2016 09:48:07 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 11:57:37 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_c360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect.php on line 3
+[01-May-2016 11:57:37 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect.php on line 4
+[01-May-2016 11:57:37 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect.php on line 5
+[01-May-2016 11:57:37 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect.php on line 5
+[01-May-2016 11:57:37 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 21:16:19 America/Denver] PHP Notice:  Undefined index: module in /home1/hoaxanhc/public_html/c360/admin/index.php on line 30
+[01-May-2016 21:16:46 America/Denver] PHP Notice:  Undefined index: module in /home1/hoaxanhc/public_html/c360/admin/index.php on line 30
+[01-May-2016 21:18:05 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[01-May-2016 21:18:05 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[01-May-2016 21:18:05 America/Denver] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/model.php on line 2
+[01-May-2016 21:19:32 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/index.php on line 107
+[01-May-2016 21:19:58 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[01-May-2016 21:19:58 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[01-May-2016 21:20:16 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[01-May-2016 21:20:16 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[01-May-2016 21:20:16 America/Denver] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/model.php on line 2
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/include/toolbar.php on line 4
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: id_danhmuc in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 26
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: trang in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 70
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: id_danhmuc in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 91
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[01-May-2016 21:20:38 America/Denver] PHP Notice:  Undefined index: trang in /home1/hoaxanhc/public_html/c360/helper/panigation.php on line 4
+[01-May-2016 21:20:44 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[01-May-2016 21:20:44 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[01-May-2016 21:20:44 America/Denver] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/model.php on line 2
+[01-May-2016 21:22:44 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[01-May-2016 21:22:44 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[01-May-2016 21:22:44 America/Denver] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/model.php on line 2
+[01-May-2016 21:23:35 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[01-May-2016 21:23:35 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[01-May-2016 21:23:35 America/Denver] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/model.php on line 2
+[01-May-2016 21:23:38 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[01-May-2016 21:23:38 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[01-May-2016 21:23:38 America/Denver] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/model.php on line 2
+[02-May-2016 07:49:57 America/Denver] PHP Notice:  Undefined index: module in /home1/hoaxanhc/public_html/c360/admin/index.php on line 60
+[02-May-2016 07:50:04 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[02-May-2016 07:50:04 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[02-May-2016 07:50:04 America/Denver] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/model.php on line 2
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/include/toolbar.php on line 4
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: id_danhmuc in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 26
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: trang in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 70
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: id_danhmuc in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 91
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: gia in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 114
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined variable: page in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 143
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: name in /home1/hoaxanhc/public_html/c360/admin/modules/sanpham/index.php on line 147
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 28
+[02-May-2016 07:50:08 America/Denver] PHP Notice:  Undefined index: trang in /home1/hoaxanhc/public_html/c360/helper/panigation.php on line 4
+[02-May-2016 07:50:11 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[02-May-2016 07:50:11 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[02-May-2016 07:50:11 America/Denver] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/model.php on line 2
+[02-May-2016 07:51:36 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[02-May-2016 07:51:36 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[02-May-2016 07:51:36 America/Denver] PHP Fatal error:  Call to undefined function category() in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/index.php on line 33
+[02-May-2016 07:52:16 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[02-May-2016 07:52:16 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[02-May-2016 07:52:16 America/Denver] PHP Fatal error:  Call to undefined function category() in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/index.php on line 33
+[02-May-2016 07:53:01 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[02-May-2016 07:53:01 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[02-May-2016 07:53:01 America/Denver] PHP Fatal error:  Call to undefined function category() in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/index.php on line 33
+[02-May-2016 07:53:39 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[02-May-2016 07:53:39 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[02-May-2016 07:53:39 America/Denver] PHP Fatal error:  Call to undefined function category() in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/index.php on line 33
+[02-May-2016 07:54:45 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[02-May-2016 07:54:45 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[02-May-2016 07:54:45 America/Denver] PHP Fatal error:  Call to undefined function categorys() in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/index.php on line 33
+[02-May-2016 07:55:04 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[02-May-2016 07:55:04 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[02-May-2016 07:55:04 America/Denver] PHP Notice:  Undefined variable: category in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/index.php on line 34
+[02-May-2016 07:55:26 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[02-May-2016 07:55:26 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[02-May-2016 07:55:26 America/Denver] PHP Fatal error:  Call to undefined function categorys() in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/index.php on line 33
+[02-May-2016 07:55:45 America/Denver] PHP Notice:  Undefined index: id in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/include/toolbar.php on line 4
+[02-May-2016 07:55:45 America/Denver] PHP Notice:  Undefined index: iconDir in /home1/hoaxanhc/public_html/c360/helper/cmsButton.php on line 3
+[02-May-2016 07:55:45 America/Denver] PHP Fatal error:  Call to undefined function categorys() in /home1/hoaxanhc/public_html/c360/admin/modules/danhmuc/index.php on line 33

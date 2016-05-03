@@ -6,7 +6,7 @@
 <script>
     var baseurl= '<?php echo APPLICATION_URL; ?>';    
 </script>
-    
+<link href="templates/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> 
 <link href="templates/css/menuTiny.css" rel="stylesheet" type="text/css" />
 <link href="templates/css/rounded.css" rel="stylesheet" type="text/css" /> 
 <link href="templates/css/general.css" rel="stylesheet" type="text/css" />
@@ -19,7 +19,7 @@
 
 <link href="templates/css/tabcontent.css" rel="stylesheet" type="text/css" />
 
-<script src="templates/js/jquery-1.9.1.min.js"></script>  
+<script src="templates/js/jquery-1.7.2.js"></script>  
 <script src="templates/js/menuTiny.js" type="text/javascript"></script>
 <script src="templates/js/submit.js" type="text/javascript"></script>
 <script src="templates/js/jquery.datepick.js" type="text/javascript"></script>

@@ -1,0 +1,79 @@
+[01-May-2016 09:47:07 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 3
+[01-May-2016 09:47:07 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 4
+[01-May-2016 09:47:07 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:47:07 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:47:07 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 09:47:10 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 3
+[01-May-2016 09:47:10 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 4
+[01-May-2016 09:47:10 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:47:10 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:47:10 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 09:47:14 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 3
+[01-May-2016 09:47:14 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 4
+[01-May-2016 09:47:14 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:47:14 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:47:14 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 09:48:07 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 3
+[01-May-2016 09:48:07 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 4
+[01-May-2016 09:48:07 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:48:07 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:48:07 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 09:51:03 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 3
+[01-May-2016 09:51:03 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 4
+[01-May-2016 09:51:03 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:51:03 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:51:03 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 09:51:03 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 3
+[01-May-2016 09:51:03 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 4
+[01-May-2016 09:51:03 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:51:03 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:51:03 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 09:54:56 America/Denver] PHP Notice:  Undefined index: 69.195.124.195 in /home1/hoaxanhc/public_html/c360/define.php on line 15
+[01-May-2016 09:54:56 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_c360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 3
+[01-May-2016 09:54:56 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 4
+[01-May-2016 09:54:56 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:54:56 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:54:56 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 09:56:59 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_c360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 3
+[01-May-2016 09:56:59 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 4
+[01-May-2016 09:56:59 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:56:59 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:56:59 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 09:57:48 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_c360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 3
+[01-May-2016 09:57:48 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 4
+[01-May-2016 09:57:48 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:57:48 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 09:57:48 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 11:15:22 America/Denver] PHP Parse error:  syntax error, unexpected 'ADMIN_URL' (T_STRING), expecting ']' in /home1/hoaxanhc/public_html/c360/define.php on line 16
+[01-May-2016 11:15:44 America/Denver] PHP Parse error:  syntax error, unexpected 'ADMIN_URL' (T_STRING), expecting ']' in /home1/hoaxanhc/public_html/c360/define.php on line 16
+[01-May-2016 11:31:56 America/Denver] PHP Parse error:  syntax error, unexpected 'ADMIN_URL' (T_STRING), expecting ']' in /home1/hoaxanhc/public_html/c360/define.php on line 16
+[01-May-2016 11:36:19 America/Denver] PHP Parse error:  syntax error, unexpected 'ADMIN_URL' (T_STRING), expecting ']' in /home1/hoaxanhc/public_html/c360/define.php on line 16
+[01-May-2016 11:39:32 America/Denver] PHP Parse error:  syntax error, unexpected 'ADMIN_URL' (T_STRING), expecting ']' in /home1/hoaxanhc/public_html/c360/define.php on line 16
+[01-May-2016 11:47:13 America/Denver] PHP Parse error:  syntax error, unexpected 'ADMIN_URL' (T_STRING), expecting ']' in /home1/hoaxanhc/public_html/c360/define.php on line 16
+[01-May-2016 11:48:22 America/Denver] PHP Parse error:  syntax error, unexpected 'ADMIN_URL' (T_STRING), expecting ']' in /home1/hoaxanhc/public_html/c360/define.php on line 16
+[01-May-2016 11:48:50 America/Denver] PHP Parse error:  syntax error, unexpected 'ADMIN_URL' (T_STRING), expecting ']' in /home1/hoaxanhc/public_html/c360/define.php on line 16
+[01-May-2016 11:48:55 America/Denver] PHP Parse error:  syntax error, unexpected 'ADMIN_URL' (T_STRING), expecting ']' in /home1/hoaxanhc/public_html/c360/define.php on line 16
+[01-May-2016 11:49:19 America/Denver] PHP Parse error:  syntax error, unexpected 'HELPER_URL' (T_STRING), expecting ']' in /home1/hoaxanhc/public_html/c360/define.php on line 17
+[01-May-2016 11:54:02 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_c360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 3
+[01-May-2016 11:54:02 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 4
+[01-May-2016 11:54:02 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 11:54:02 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 11:54:02 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 20:03:54 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'hoaxanhc_c360'@'localhost' (using password: YES) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 3
+[01-May-2016 20:03:54 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 4
+[01-May-2016 20:03:54 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'vjanardhan'@'localhost' (using password: NO) in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 20:03:54 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/hoaxanhc/public_html/c360/config/connect_home.php on line 5
+[01-May-2016 20:03:54 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 20:04:30 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 20:04:31 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 30
+[01-May-2016 20:04:56 America/Denver] PHP Notice:  Undefined index: ajax in /home1/hoaxanhc/public_html/c360/index.php on line 10
+[01-May-2016 20:04:56 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/templates/include/header.php on line 75
+[01-May-2016 20:06:11 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home1/hoaxanhc/public_html/c360/helper/recursive.php on line 59
+[01-May-2016 20:06:42 America/Denver] PHP Notice:  Undefined index: ajax in /home1/hoaxanhc/public_html/c360/index.php on line 10
+[01-May-2016 20:06:42 America/Denver] PHP Fatal error:  Class 'recursive' not found in /home1/hoaxanhc/public_html/c360/templates/include/header.php on line 257
+[01-May-2016 20:07:38 America/Denver] PHP Notice:  Undefined index: ajax in /home1/hoaxanhc/public_html/c360/index.php on line 10
+[01-May-2016 20:07:38 America/Denver] PHP Notice:  Undefined index: q in /home1/hoaxanhc/public_html/c360/templates/include/header.php on line 285
+[01-May-2016 20:07:38 America/Denver] PHP Notice:  Undefined index: module in /home1/hoaxanhc/public_html/c360/index.php on line 18
+[01-May-2016 20:08:17 America/Denver] PHP Notice:  Undefined index: ajax in /home1/hoaxanhc/public_html/c360/index.php on line 10
+[01-May-2016 20:08:17 America/Denver] PHP Notice:  Undefined index: q in /home1/hoaxanhc/public_html/c360/templates/include/header.php on line 285
+[01-May-2016 20:08:17 America/Denver] PHP Notice:  Undefined index: module in /home1/hoaxanhc/public_html/c360/index.php on line 18

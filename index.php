@@ -1,4 +1,6 @@
 <?php
+ini_set('display_errors', 0);
+error_reporting ('E_ALL');//E_NOTICE //E_ALL
 ob_start();
 session_start();
 require('config/connect_home.php');
@@ -19,14 +21,8 @@ if($_REQUEST['ajax']==1){
         case "shopping":
             require("modules/shopping/controller.php");
             break;
-        case "news":
-            require("modules/news/controller.php");
-            break;
         case "user":
             require("modules/user/controller.php");
-            break;
-        case "cart":
-            require("modules/cart/controller.php");
             break;
         default:
             require_once("templates/include/main.php");
