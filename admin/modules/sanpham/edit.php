@@ -41,7 +41,7 @@
 					}
 				}
 				
-				if(!empty($data['hinhanh']) && empty($error['img'])){
+				if(!empty($data['hinhanh']) && $data['hinhanh']!='null' && empty($error['img'])){
 					$data_hinhanh = json_decode($data['hinhanh'],true);
 					$arrHinh = array_merge($arrImg,$data_hinhanh);
 				}else{

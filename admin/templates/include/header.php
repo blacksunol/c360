@@ -75,6 +75,7 @@ jQuery(document).ready(function() {
                         <li><a href="index.php?module=nhom&act=index">Nhóm</a></li>
                         <li><a href="index.php?module=thanhvien&act=index">Thành viên</a></li>
                         <li><a href="index.php?module=sothich&act=index">Sở thích</a></li>
+                        <li><a href="index.php?module=cauhinh&act=edit">Cấu hình</a></li>
                    </ul>
                 </li>
                 <li><a href="#" class="menuTinyLink">Quản lý nội dung</a>

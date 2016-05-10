@@ -2,7 +2,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Hoa xanh</title>
+<?php
+	if($_GET['module']=='shopping' && $_GET['act']=='detail'){
+		$sql = "select * from sanpham where duyet=1 and id=".$_GET['id'];
+    	$data = fetchRow($sql);
+		$title = $data['ten'];
+		$info = remove_all_html($data['thongtin']);
+		if(!empty($data['hinhanh'])){
+			$hinhanh = json_decode($data['hinhanh'],true);
+			$hinh = $hinhanh[0];	
+		}
+?>
+		<meta property="og:title" content="<?php echo $title;?>"/>
+        <meta property="og:image" content="<?php echo FILE_URL.'/product/'.$hinhanh[0];?>" />
+        <meta property="og:description" content="<?php echo $info;?>" />
+<?php
+	}else{
+		$title= "Cá cảnh";
+		$info = "Cá cảnh";
+	}
+?>
+
+<title><?php echo $title;?></title>
+<meta name="description" content="<?php echo $info;?>" />
+<meta name="keywords" content="<?php echo $info;?>" />
+
 <script>
 var baseUrl = '<?php echo APPLICATION_URL; ?>';
 var TEMPLATE_URL = '<?php echo TEMPLATE_URL;?>';

@@ -28,7 +28,7 @@ class recursive{
 
 
 
-    public function recursive($menu,$parents = 0,$level = 1,$newMenu){
+    public function recursive($menu,$parents = 0,$level = 1,&$newMenu){
 
         foreach ($menu as $key => $val){
 
