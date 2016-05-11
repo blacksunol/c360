@@ -42,8 +42,9 @@ function fCheckComment(a){
 		dataType:"json",
 		success:function(f){
 			if(f.status==true){
-				Lightboxt.showemsg('Thành công', '<b>Bình luận thành công</b>', 'Đóng');
+				//Lightboxt.showemsg('Thành công', '<b>'+f.messg+'</b>', 'Đóng');
 				refreshComment(a);
+				$(".list_comment").html(f.html)
 			}
 			a.find("div.refresh_code").trigger("click")},
 			error:function(b,c,d){

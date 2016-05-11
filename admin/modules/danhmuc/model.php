@@ -1,5 +1,5 @@
 <?php
-function categorys($arrData){echo "phuong";die();
+function category($_GET){
     $table = 'danhmuc';
     $coln = array(
         'danhmuc.id'=>'danhmuc.id',
@@ -8,10 +8,10 @@ function categorys($arrData){echo "phuong";die();
         'danhmuc.duyet'=>'danhmuc.duyet',
         'danhmuc.phancap'=>'danhmuc.phancap',
         'danhmuc.sapxep'=>'danhmuc.sapxep',
-    );echo $sql;die();
+    );
     
     $sql .= select($table,$coln);
-    if($arrData['act']=='edit'){
+    if($_GET['act']=='edit'){
         $sql .= ' where danhmuc.id !='.$_GET['id'];
     }
     $sql .= order('danhmuc.sapxep', 'ASC');
@@ -22,7 +22,7 @@ function categorys($arrData){echo "phuong";die();
         $results[] = $data;
     }
     $items = new recursive($results);
-    if($arrData['act'] == 'delete'){
+    if($_GET['act'] == 'delete'){
         $result = $items->process($arrParam['id']);
     }else{
         $result = $items->process(0);
