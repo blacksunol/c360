@@ -1,5 +1,5 @@
 <?php
-function categorys($arrData){echo "phuong";die();
+function categorys($arrData){
     $table = 'danhmuc';
     $coln = array(
         'danhmuc.id'=>'danhmuc.id',
@@ -8,7 +8,7 @@ function categorys($arrData){echo "phuong";die();
         'danhmuc.duyet'=>'danhmuc.duyet',
         'danhmuc.phancap'=>'danhmuc.phancap',
         'danhmuc.sapxep'=>'danhmuc.sapxep',
-    );echo $sql;die();
+    );
     
     $sql .= select($table,$coln);
     if($arrData['act']=='edit'){

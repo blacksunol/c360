@@ -5,7 +5,7 @@
                 <?php
                     $module = $_GET['module'];
                     require_once ("modules/$module/include/toolbar.php");
-                    //require_once("model.php");
+                    require_once("model.php");
                 ?>
 
                 <div id="element-box">
