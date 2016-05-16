@@ -5,6 +5,7 @@
 <title>Quản lý Admin</title>
 <script>
     var baseurl= '<?php echo APPLICATION_URL; ?>';    
+    var SCRIPTS_URL = '<?php echo SCRIPT_URL;?>';
 </script>
 <link href="templates/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> 
 <link href="templates/css/menuTiny.css" rel="stylesheet" type="text/css" />
@@ -37,11 +38,9 @@ jQuery(document).ready(function() {
 </script>
 
 <script src="<?php echo ADMIN_URL;?>/templates/js/tablednd.js" type="text/javascript"></script>
-<script src="<?php echo SCRIPT_URL;?>/tiny_mce3/tiny_mce.js" type="text/javascript"></script>
-<script src="<?php echo SCRIPT_URL;?>/tiny_mce3/tiny_mce_init.js" type="text/javascript"></script>
-<script>
-    tinyMCE.settings.script_image_upload="<?php echo SCRIPT_URL;?>/tiny_mce3/uploadplugin.php";
-</script>
+<script src="<?php echo SCRIPT_URL; ?>/ckeditor/ckeditor.js" type="text/javascript"></script>
+<script src="<?php echo SCRIPT_URL; ?>/ckfinder/ckfinder.js" type="text/javascript"></script>
+
 <link href="templates/css/permisssion.css" rel="stylesheet" type="text/css" />
 <script src="templates/js/permisssion.js" type="text/javascript"></script>
 </head>
@@ -75,6 +74,7 @@ jQuery(document).ready(function() {
                         <li><a href="index.php?module=nhom&act=index">Nhóm</a></li>
                         <li><a href="index.php?module=thanhvien&act=index">Thành viên</a></li>
                         <li><a href="index.php?module=sothich&act=index">Sở thích</a></li>
+                        <li><a href="index.php?module=cauhinh&act=edit">Cấu hình</a></li>
                    </ul>
                 </li>
                 <li><a href="#" class="menuTinyLink">Quản lý nội dung</a>

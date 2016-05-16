@@ -5,7 +5,7 @@
                 <?php
                     $module = $_GET['module'];
                     require_once ("modules/$module/include/toolbar.php");
-                    //require_once("model.php");
+                    require_once("model.php");
                 ?>
 
                 <div id="element-box">
@@ -30,7 +30,7 @@
                                 </tr>
                             </thead>
                             <?php
-				$category = categorys($_GET);			
+				$category = category($_GET);			
                                 if(count($category)>0){
                                   foreach($category as $k=>$data){ 
                                         if($data['level'] == 1){

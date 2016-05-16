@@ -77,3 +77,11 @@
 [01-May-2016 20:08:17 America/Denver] PHP Notice:  Undefined index: ajax in /home1/hoaxanhc/public_html/c360/index.php on line 10
 [01-May-2016 20:08:17 America/Denver] PHP Notice:  Undefined index: q in /home1/hoaxanhc/public_html/c360/templates/include/header.php on line 285
 [01-May-2016 20:08:17 America/Denver] PHP Notice:  Undefined index: module in /home1/hoaxanhc/public_html/c360/index.php on line 18
+[13-May-2016 09:15:05 America/Denver] PHP Notice:  Undefined index: ajax in /home1/hoaxanhc/public_html/c360/index.php on line 12
+[13-May-2016 09:15:05 America/Denver] PHP Notice:  Undefined index: module in /home1/hoaxanhc/public_html/c360/templates/include/header.php on line 6
+[13-May-2016 09:15:05 America/Denver] PHP Notice:  Undefined index: q in /home1/hoaxanhc/public_html/c360/templates/include/header.php on line 167
+[13-May-2016 09:15:05 America/Denver] PHP Notice:  Undefined index: module in /home1/hoaxanhc/public_html/c360/index.php on line 20
+[13-May-2016 09:15:13 America/Denver] PHP Notice:  Undefined index: ajax in /home1/hoaxanhc/public_html/c360/index.php on line 12
+[13-May-2016 09:15:13 America/Denver] PHP Notice:  Undefined index: module in /home1/hoaxanhc/public_html/c360/templates/include/header.php on line 6
+[13-May-2016 09:15:13 America/Denver] PHP Notice:  Undefined index: q in /home1/hoaxanhc/public_html/c360/templates/include/header.php on line 167
+[13-May-2016 09:15:13 America/Denver] PHP Notice:  Undefined index: module in /home1/hoaxanhc/public_html/c360/index.php on line 20

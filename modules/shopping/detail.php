@@ -53,7 +53,7 @@
 						if(!empty($data['hinhanh'])){
 							$hinhanh = json_decode($data['hinhanh'],true);
 					?>
-                   <link href="<?php echo TEMPLATE_URL;?>/slidedetail/css/layout.2.0.0.css" media="screen" rel="stylesheet" type="text/css" />    	
+                   <link href="<?php echo TEMPLATE_URL;?>/slidedetail/css/style.css" media="screen" rel="stylesheet" type="text/css" />    	
 					<script src="<?php echo TEMPLATE_URL;?>/slidedetail/js/jquery.js"></script>
                     <script type="text/javascript" src="<?php echo TEMPLATE_URL;?>/slidedetail/js/core.65.min.js"></script>
                     <div id="base" class="info-box clearfix" >
@@ -138,6 +138,17 @@
                             var id_product = <?php echo $_GET['id'];?>
                         </script>
                     </div>
+                    <?php
+						$cauhinh = fetchRow("select * from cauhinh where id=1"); 
+						$link = APPLICATION_URL.'/index.php?'.$_SERVER['QUERY_STRING'];
+					?>
+                    <div class="share_face">
+                    	<div class="g-plusone" data-annotation="none" data-size="medium" data-href="<?php echo $link;?>"></div>
+                    
+                    <div class="fb-like" data-href="<?php echo $link;?>" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+                    <div class="fb-like" data-href="<?php echo $cauhinh['facebook'];?>" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                    </div>
+                    
                 </div>
                 <div class="clr"></div>
                 <div class="content_product">
@@ -145,7 +156,7 @@
                     <div class="info_content_pro clr">
                         <?php 
                             if(!empty($data['noidung'])){    
-                                echo remove_url($data['noidung']);
+                                echo $data['noidung'];
                             }else{
                         ?>
                         <div class="error_data">Đang cập nhật dữ liệu</div>
@@ -160,7 +171,7 @@
                 	<div class="title_content">Danh sách bình luận :</div>
                     <div class="list_comment">
                     	<?php
-                            $sql = "select * from binhluan where duyet=1 and id_sanpham=".$_GET['id'];
+                            $sql = "select * from binhluan where id_sanpham=".$_GET['id'].' order by id ASC';
                             $result = fetchAll($sql);
                             if(count($result)>0){
                                 $i=0;
@@ -170,7 +181,7 @@
                     	<div class="rows_comment <?php echo ($i%2==0)?'chan':'';?>">
                         	<div class="avarta">
                             	<div class="name_comment"><?php echo $v['hoten'];?></div>
-                                <div class="ngaygui">Ngày gửi : <?php echo gmdate('d/m/Y',$v['ngaytao']+7*3600);?></div>
+                                <div class="ngaygui">Ngày gửi : <?php echo gmdate('d/m/Y G:i:s',$v['ngaytao']+7*3600);?></div>
                                 <div class="ngaygui"><?php echo $v['email'];?></div>
                             </div>
                             <div class="info_comment">
