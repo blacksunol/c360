@@ -2,7 +2,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Hoa xanh</title>
+<?php
+	if($_GET['module']=='shopping' && $_GET['act']=='detail'){
+		$sql = "select * from sanpham where duyet=1 and id=".$_GET['id'];
+    	$data = fetchRow($sql);
+		$title = $data['ten'];
+		$info = remove_all_html($data['thongtin']);
+		if(!empty($data['hinhanh'])){
+			$hinhanh = json_decode($data['hinhanh'],true);
+			$hinh = $hinhanh[0];	
+		}
+?>
+		<meta property="og:title" content="<?php echo $title;?>"/>
+        <meta property="og:image" content="<?php echo FILE_URL.'/product/'.$hinhanh[0];?>" />
+        <meta property="og:description" content="<?php echo $info;?>" />
+<?php
+	}else{
+		$title= "Cá cảnh";
+		$info = "Cá cảnh";
+	}
+?>
+
+<title><?php echo $title;?></title>
+<meta name="description" content="<?php echo $info;?>" />
+<meta name="keywords" content="<?php echo $info;?>" />
+
 <script>
 var baseUrl = '<?php echo APPLICATION_URL; ?>';
 var TEMPLATE_URL = '<?php echo TEMPLATE_URL;?>';
@@ -42,20 +66,22 @@ body{
 
 <body>
 <div class="loading_warning"></div>
-<div class="header">   
-    <div class="banner" align="center">
-        <?php
+<?php
             $sql = "select * from hinhanh where duyet=1 and vitri=1";
             $query = mysql_query($sql);
             $banner = mysql_fetch_assoc($query);
             if(!empty($banner['hinhanh'])){
         ?>
+<div class="header">   
+    <div class="banner" align="center">
+        
     	<img src="<?php echo FILE_URL.'/news/'.$banner['hinhanh']; ?>"/>
-        <?php
-            }
-        ?>
+        
     </div>
 </div>
+<?php
+            }
+        ?>
 <div class="clr"></div>
 <div class="braind">
     

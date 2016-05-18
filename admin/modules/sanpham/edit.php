@@ -41,7 +41,7 @@
 					}
 				}
 				
-				if(!empty($data['hinhanh']) && empty($error['img'])){
+				if(!empty($data['hinhanh']) && $data['hinhanh']!='null' && empty($error['img'])){
 					$data_hinhanh = json_decode($data['hinhanh'],true);
 					$arrHinh = array_merge($arrImg,$data_hinhanh);
 				}else{
@@ -264,4 +264,18 @@
     </div>
 </div>
 <div id="border-bottom"><div><div></div></div></div>
+<script>
+ $(function(){
+//	CKEDITOR.replace("mota",{toolbar :
+//        [
+//            ['Source'],
+//            ['Bold','Italic','Underline','Strike'],
+//        ],
+//        height: 200,
+//        width: 400
+//    });
+    CKEDITOR.replace("noidung",{height:300});
+    CKEDITOR.replace("thongtin",{height:300});
+})
+</script>
             
